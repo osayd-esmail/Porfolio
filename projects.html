@@ -1,0 +1,109 @@
+<html>
+
+<head>
+    <link rel="icon" href="assets/letter.png">
+    <title>Osayd Esmail</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="styles/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="bg-info text-light">
+    <!--Navbar-->
+    <nav class="navbar navbar-dark bg-primary container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <i class="bi bi-house"></i> Osayd Esmail
+        </a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar-options">
+            <i class="navbar-toggler-icon"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-options">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html">
+                        <i class="bi bi-code-slash"></i> Code
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">
+                        <i class="bi bi-chat-dots"></i> Blog
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">
+                        <i class="bi bi-person"></i> About
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">
+                        <i class="bi bi-envelope"></i> Contact
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!--Coding Projects Portfolio-->
+    <div class="container">
+        <h1 class="display-1 mt-4">
+            <i class="bi bi-code-slash"></i> Code
+        </h1>
+        <hr>
+        <!-- START: Card Group -->
+        <div class="card-group gap-2">
+            <!-- START: Card 1 -->
+            <div class="card bg-dark text-center" id="bg">
+                <!-- Card Header -->
+                <div class="card-header">
+                    <img class="img-thumbnail shine" id="sponge_pic" src="assets/spongebob.jpg">
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                    <h3 class="sponge_yellow"> Spongebob Adventure </h3>
+                    <p>
+                        Wake up in Bikini Bottom's prominent pineapple! Decide where Spongebob will go next.
+                    </p>
+                </div>
+                <!-- Card Footer -->
+                <div class="card-footer">
+                    <small class="text-muted"> HTML & CSS </small>
+                    <a href="https://osayd-esmail.github.io/SpongebobAdventure/" target="_blank">
+                        <button class="btn float-end" id="sponge_button"> Let's Go! </button>
+                    </a>
+                </div>
+            </div>
+            <!-- END:Card 1 -->
+            <!-- START:Card 2 -->
+            <div class="card bg-dark text-center">
+                <!-- Card Header -->
+                <div class="card-header">
+                    <img class="img-thumbnail" src="assets/snap.PNG">
+                </div>
+                <!-- Card Body -->
+                <div class="card-body">
+                    <h3 class="text-primary"> Pricing Panel </h3>
+                    <p>
+                        A basic yet modern display of a pricing panel for different options of a service.
+                        A small descrition is given for each service, along with the respective price.
+                    </p>
+                </div>
+                <!-- Card Footer -->
+                <div class="card-footer">
+                    <small class="text-muted"> HTML & CSS </small>
+                    <a href="pricing_panel.html" target="_blank">
+                        <button class="btn btn-primary float-end" id="pricing_button"> See More </button>
+                    </a>
+                </div>
+            </div>
+            <!-- END:Card 2 -->
+        </div>
+        <!-- END:Card Group -->
+    </div>
+    <!-- Bootstrap Bundle with Popper -->
+    <script src=" scripts/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

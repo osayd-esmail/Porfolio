@@ -1,0 +1,69 @@
+#blue {
+  background-color: rgba(35, 149, 255, 0.5);
+}
+#red {
+  background-color: rgba(255, 37, 37, 0.527);
+}
+#purple {
+  background-color: rgba(235, 33, 235, 0.5);
+}
+#yellow {
+  background-color: rgba(216, 235, 46, 0.5);
+}
+.sponge_yellow {
+  color: yellow;
+}
+
+.colorful_name {
+  font-weight: 800;
+  background-image: linear-gradient(
+    -225deg,
+    #1f008d 0%,
+    #ffb617 15%,
+    #af64ff 29%,
+    #ff4784 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+}
+
+#sponge_button {
+  background-color: #fdff97;
+  box-shadow: 0 0 5px #e2ef97;
+}
+#sponge_button:hover {
+  box-shadow: 0 0 10px #fffc66, 0 0 20px #e8ff66,
+    0 0 20px rgb(255, 255, 255) inset;
+}
+
+/* #sponge_button:hover ~ #bg {
+        background: rgb(255, 50, 255);
+}​ */
+
+/* #sponge_button {
+    background-color: ;
+    box-shadow: 0 0 5px #e2ef97;
+  } */
+#pricing_button:hover {
+  box-shadow: 0 0 10px #177cff, 0 0 20px #1f80ff, 0 0 20px rgb(0, 0, 0) inset;
+}
+
+ul {
+  list-style: none;
+}
+
+#navbarr {
+  background-color: rgb(80, 31, 194);
+}
+
+#burger {
+  color: #ac94ff;
+}
